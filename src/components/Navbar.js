@@ -47,6 +47,9 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
+          <div className="mode-container">
+          <button className="mode">Mode</button>
+          </div>
           <div className="hamburger" onClick={changeSlidebar}>
             <div className="ham-line"></div>
             <div className="ham-line"></div>
